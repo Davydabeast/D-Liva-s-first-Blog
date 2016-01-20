@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="Main.css" rel="stylesheet">
+</head>
+<body>
+<header>
+	<div id="Title">David Livadhi's Blog</div>
+</header>
+<nav class="menu">
+		<ul>
+			<li><a href="blog.html">Home</a></li>
+			<li><a href="Posts.html">Posts</a></li>
+			<li><a href="About.html">About</a></li>
+		</ul>
+</nav>
