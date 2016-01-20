@@ -1,0 +1,99 @@
+.featured h2 {
+	color: #c32 ;
+	text-align: center;
+	font-family: Arial;
+}
+.featured p{
+	padding: 25px;
+}
+.posts p{
+	padding: 25px;
+}
+.header ul{
+	color: #;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 35px;
+
+
+}
+li {
+	list-style-type: none;
+	font-family: sans-serif;
+}
+a {
+	text-decoration: none;
+	font-family: sans-serif;
+
+}
+a:visited{
+  text-decoration: none;
+  color:  #3c7576
+}
+h1{
+	text-align: center;
+	font-size: 60px;
+	font-family: Arial;
+	color:#48f;
+}
+body {
+	background-image: url("http://actonejazz.com/wp-content/uploads/2015/05/blue.jpg");
+	font-family: sans-serif;
+}
+*{
+	paddding: 0; margin: 0;
+}
+
+header{
+	width: 100%;
+	height: 50px;
+	margin: 1px 0;
+	border-bottom:1px solid  #56a7a9;
+
+}
+#Title {
+	
+	line-height: 50px;
+	color: #56a7a9;
+	font-weight: bolder;
+	font-size: 40px;
+	text-align: center;
+
+
+}
+nav{
+	width:100%;
+	text-align: center;
+}
+nav a{
+	display: block;
+	padding: 15px 0;
+	border-bottom:1px solid #56a7a9;
+
+}
+nav a:hover{
+	background:  #89c1c3;
+
+}
+/*----------------------------------*/
+.menu{
+	width: 240px;
+	height:100%;
+	position:absolute;
+	background:#EEE;
+	left: -240px;
+
+
+}
+.menu-icon{
+	padding: 10px 20px;
+	background: #DDD;
+	color: black;
+	cursor: pointer;
+	float: right;
+	border-radius: 10px;
+}
+#menuToggle {
+	display: none;
+}
+#menuToggle:checked ~ .menu{position: absolute; left: 0;}
